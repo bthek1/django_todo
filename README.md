@@ -2,6 +2,15 @@
 
 
 
+## Install poetry 
+```sh
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+### Make virtual env in project
+```sh
+poetry config virtualenvs.in-project true
+```
 
 ## Testing
 
